@@ -23,3 +23,7 @@ def describe_find_number():
     def should_give_45_when_input_1071225():
         """🧪 should give 45 when the input is 1071225"""
         assert build_cube_pile.find_number(1071225) == 45
+
+    def should_give_negative_1_when_input_91716553919377():
+        """🧪 should give -1 when the input is 91716553919377"""
+        assert build_cube_pile.find_number(91716553919377) == -1
