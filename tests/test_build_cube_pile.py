@@ -11,3 +11,7 @@ def describe_find_number():
     def should_give_1_when_input_1():
         """🧪 should give 1 when the input is 1"""
         assert build_cube_pile.find_number(1) == 1
+
+    def should_give_2_when_input_9():
+        """🧪 should give 2 when the input is 9"""
+        assert build_cube_pile.find_number(9) == 2
